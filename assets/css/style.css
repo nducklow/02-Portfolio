@@ -1,5 +1,10 @@
 nav {
-    display: flex
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: 
 }
 
 
@@ -13,6 +18,10 @@ nav {
 
 .firstProject {
 
+
+}
+
+main section h4 {
     
 }
 
