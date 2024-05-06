@@ -1,27 +1,120 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(19, 172, 172);
+    padding: 20px;
+}
 nav {
     display: flex;
     justify-content: flex-end;
+    background-color: rgb(23, 81, 121);
+    margin-bottom: 20px;
 }
 
 nav a {
-    padding: 
+    padding: 12px 20px;
+    color: rgb(255, 255, 255);
 }
+
+#about {
+    text-align: center;
+}
+
+#about article {
+    background-color: rgb(19, 172, 172);
+    padding: 20px;
+
+}
+
+#work {
+    text-align: center;
+}
+
+.firstProject {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+#firstImage{
+   width: 500px; 
+}
+
+.otherProjects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+}
+
+
+.otherImages {
+   width: 350px;
+    
+}
+.firstCard{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(23, 81, 121);
+}
+
+.card {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(23, 81, 121);
+}
+
+#cardHeader {
+    background-color: rgb(19, 172, 172);
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(19, 172, 172);
+    color: rgb(0, 0, 0);
+        
+}
+
+/* footer h3 {
+    padding-left: 20px;
+    padding-right: 20px
+} */
+
+footer a {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px
+}
+
 
 
 @media screen and (max-width: 768px) {
     main,
     nav,
+    footer,
     .product {
       flex-direction: column;
+      text-align: center;
     }
 }
-
-.firstProject {
-
-
-}
-
-main section h4 {
-    
-}
-
