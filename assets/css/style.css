@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: rgb(255, 255, 255);
     margin: 0;
@@ -11,8 +12,9 @@ header {
     background-color: rgb(19, 172, 172);
     padding: 20px;
 }
+
 header img {
-width: 150px;
+width: 150gpx;
 border-style: solid;
 
 }
@@ -97,9 +99,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color: rgb(19, 172, 172);
-    color: rgb(0, 0, 0);
-    
-        
+    color: rgb(0, 0, 0);      
 }
 
 footer a {
@@ -107,10 +107,7 @@ footer a {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px
-
 }
-
-
 
 @media screen and (max-width: 768px) {
     main,
