@@ -11,6 +11,11 @@ header {
     background-color: rgb(19, 172, 172);
     padding: 20px;
 }
+header img {
+width: 150   spx;
+border-style: solid;
+
+}
 nav {
     display: flex;
     justify-content: flex-end;
@@ -93,18 +98,16 @@ footer {
     justify-content: center;
     background-color: rgb(19, 172, 172);
     color: rgb(0, 0, 0);
+    
         
 }
 
-/* footer h3 {
-    padding-left: 20px;
-    padding-right: 20px
-} */
-
 footer a {
+    font-weight: bold;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px
+
 }
 
 
@@ -112,9 +115,9 @@ footer a {
 @media screen and (max-width: 768px) {
     main,
     nav,
-    footer,
-    .product {
+    footer a {
       flex-direction: column;
       text-align: center;
     }
 }
+
