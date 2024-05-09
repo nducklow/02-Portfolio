@@ -14,10 +14,10 @@ header {
 }
 
 header img {
-width: 150gpx;
-border-style: solid;
-
+    width: 150px;
+    border-style: solid;
 }
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -50,8 +50,8 @@ nav a {
     color: rgb(0, 0, 0);
 }
 
-#firstImage{
-   width: 500px; 
+#firstImage {
+    width: 500px;
 }
 
 .otherProjects {
@@ -62,12 +62,11 @@ nav a {
     color: rgb(0, 0, 0);
 }
 
-
 .otherImages {
-   width: 350px;
-    
+    width: 350px;
 }
-.firstCard{
+
+.firstCard {
     text-align: center;
     border-style: solid;
     border-width: 1px;
@@ -99,7 +98,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color: rgb(19, 172, 172);
-    color: rgb(0, 0, 0);      
+    color: rgb(0, 0, 0);
 }
 
 footer a {
@@ -110,11 +109,11 @@ footer a {
 }
 
 @media screen and (max-width: 768px) {
+
     main,
     nav,
     footer a {
-      flex-direction: column;
-      text-align: center;
+        flex-direction: column;
+        text-align: center;
     }
 }
-
